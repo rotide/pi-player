@@ -14,8 +14,8 @@ Raspberry Pi 3b+
    - Set to boot to Command Line: System Options -> Boot/Auto Login -> B1 Console
    - Set HDMI Audio Out: System Options -> Audio -> vc4-hdmi
 4) Set Volume
-   Command: alsamixer
-   Hit UP/DOWN arrow on keyboard to set desired volume
+   - Command: alsamixer
+   - Hit UP/DOWN arrow on keyboard to set desired volume
 
 # Setup pi-player
 - Copy pi-player.py to whatever directory you choose

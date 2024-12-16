@@ -1,6 +1,6 @@
 # pi-player
 This script will:
-- Play videos from the command line utilizing CVLC (command line VLC).
+- Play local videos from the command line utilizing CVLC (command line VLC).
 - Shuffle and play video files in a playlist.
 - When complete, start playing the playlist again using a new random shuffle.
 
@@ -34,4 +34,4 @@ Raspberry Pi OS (64-bit) Debian Bookworm w/ Raspberry Pi Desktop
 
 ## Tips
 - If you want to run pi-player in the background without needing to stay logged in: `nohup python pi-player.py &`
-- If you want to also be able to view the print statements in the nohup file: `nohup python -u pi-player.py &`
+- If you want to also be able to view the scripts output (prints) in the nohup file: `nohup python -u pi-player.py &`

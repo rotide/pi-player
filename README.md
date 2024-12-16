@@ -11,16 +11,16 @@ Raspberry Pi 3b+
 1) Flash SD Card w/ OS (Raspberry Pi OS with desktop (64bit))
 2) Update Pi: sudo apt update && sudo apt upgrade -y
 3) Run raspi-config as sudo:
-   Set to boot to Command Line: System Options -> Boot/Auto Login -> B1 Console
-   Set HDMI Audio Out: System Options -> Audio -> vc4-hdmi
+     - Set to boot to Command Line: System Options -> Boot/Auto Login -> B1 Console
+     - Set HDMI Audio Out: System Options -> Audio -> vc4-hdmi
 4) Set Volume
    Command: alsamixer
    Hit UP/DOWN arrow on keyboard to set desired volume
 
 # Setup pi-player
-1) Copy pi-player.py to whatever directory you choose
-2) Create a play.lst file in the same directory
-3) Edit play.lst to contain the full file paths of any videos you want the script to play
+- Copy pi-player.py to whatever directory you choose
+- Create a play.lst file in the same directory
+- Edit play.lst to contain the full file paths of any videos you want the script to play
 
 # Running pi-player
 1) Login to Raspberry Pi either locally or via SSH

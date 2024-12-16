@@ -7,8 +7,11 @@ This script will:
 ## Hardware
 Raspberry Pi 3b+ (or newer)
 
+## OS
+Raspberry Pi OS (64-bit) Debian Bookworm w/ Raspberry Pi Desktop
+
 ## Raspberry Pi Setup Steps
-1. Flash SD Card w/ OS (Raspberry Pi OS with desktop (64bit))
+1. Flash SD Card w/ OS
 2. Update Pi:
    - Command: `sudo apt update && sudo apt upgrade -y`
 4. Update raspi-config:

@@ -9,7 +9,7 @@ PAUSE_BETWEEN_PLAYLIST_REPLAYS = 1
 
 def get_playlist() -> list:
     try:
-        with open("./playlist.pl") as file:
+        with open("./play.lst") as file:
             playlist = [line.rstrip() for line in file if is_file(line.rstrip())]
 
         if len(playlist) == 0:

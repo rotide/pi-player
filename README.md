@@ -9,8 +9,9 @@ Raspberry Pi 3b+ (or newer)
 
 ## Raspberry Pi Setup Steps
 1. Flash SD Card w/ OS (Raspberry Pi OS with desktop (64bit))
-2. Update Pi: `sudo apt update && sudo apt upgrade -y`
-3. Update raspi-config:
+2. Update Pi:
+   - Command: `sudo apt update && sudo apt upgrade -y`
+4. Update raspi-config:
    - Command: `sudo raspi-config`
    - Set to boot to Command Line: System Options -> Boot/Auto Login -> B1 Console
    - Set HDMI Audio Out: System Options -> Audio -> vc4-hdmi

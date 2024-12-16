@@ -12,7 +12,7 @@ Raspberry Pi 3b+
 2) Update Pi: sudo apt update && sudo apt upgrade -y
 3) Run raspi-config as sudo:
 3a) Set to boot to Command Line: System Options -> Boot/Auto Login -> B1 Console
-3b) Set HDMI Audio Out: System Options -> Audio -> vc4-hdmi
+3b) Set HDMI Audio Out: System Options -> Audio -> vc4-hdmi\n
 4) Set Volume
 4a) Command: alsamixer
 4b) Hit UP/DOWN arrow on keyboard to set desired volume

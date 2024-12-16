@@ -11,8 +11,8 @@ Raspberry Pi 3b+
 1) Flash SD Card w/ OS (Raspberry Pi OS with desktop (64bit))
 2) Update Pi: sudo apt update && sudo apt upgrade -y
 3) Run raspi-config as sudo:
-     - Set to boot to Command Line: System Options -> Boot/Auto Login -> B1 Console
-    - Set HDMI Audio Out: System Options -> Audio -> vc4-hdmi
+   - Set to boot to Command Line: System Options -> Boot/Auto Login -> B1 Console
+   - Set HDMI Audio Out: System Options -> Audio -> vc4-hdmi
 4) Set Volume
    Command: alsamixer
    Hit UP/DOWN arrow on keyboard to set desired volume

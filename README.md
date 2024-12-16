@@ -11,11 +11,11 @@ Raspberry Pi 3b+
 1) Flash SD Card w/ OS (Raspberry Pi OS with desktop (64bit))
 2) Update Pi: sudo apt update && sudo apt upgrade -y
 3) Run raspi-config as sudo:
-  a) Set to boot to Command Line: System Options -> Boot/Auto Login -> B1 Console
-  b) Set HDMI Audio Out: System Options -> Audio -> vc4-hdmi
+3a) Set to boot to Command Line: System Options -> Boot/Auto Login -> B1 Console
+3b) Set HDMI Audio Out: System Options -> Audio -> vc4-hdmi
 5) Set Volume
-  a) Command: alsamixer
-  b) Hit UP/DOWN arrow on keyboard to set desired volume
+5a) Command: alsamixer
+5b) Hit UP/DOWN arrow on keyboard to set desired volume
 
 # Setup pi-player
 1) Copy pi-player.py to whatever directory you choose

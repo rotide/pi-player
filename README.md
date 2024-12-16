@@ -14,18 +14,18 @@ Raspberry Pi 3b+ (or newer)
    - Set to boot to Command Line: System Options -> Boot/Auto Login -> B1 Console
    - Set HDMI Audio Out: System Options -> Audio -> vc4-hdmi
 4. Set Volume
-   - Command: alsamixer
+   - Command: `alsamixer`
    - Hit UP/DOWN arrow on keyboard to set desired volume
 
 ## Setup pi-player
-1. Copy pi-player.py to whatever directory you choose
-2. Create a play.lst file in the same directory
-3. Edit play.lst to contain the full file paths of any videos you want the script to play
+1. Copy `pi-player.py` to whatever directory you choose
+2. Create a `play.lst` file in the same directory
+3. Edit `play.lst` to contain the full file paths of any videos you want the script to play
 
 ## Running pi-player
 1. Login to Raspberry Pi either locally or via SSH
-2. Browse to where you saved pi-player.py
-3. Execute pi-player: python pi-player.py
+2. Browse to where you saved `pi-player.py`
+3. Execute pi-player: `python pi-player.py`
 
 ## Tips
 - If you want to run pi-player in the background without needing to stay logged in: `nohup python pi-player.py &`

@@ -2,7 +2,7 @@
 This script will:
 - Play videos from the command line utilizing CVLC (command line VLC).
 - Shuffle and play video files in a playlist.
-- Restart the playlist using a new random shuffle.
+- When complete, start playing the playlist again using a new random shuffle.
 
 ## Hardware
 Raspberry Pi 3b+ (or newer)

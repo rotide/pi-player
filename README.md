@@ -12,11 +12,11 @@ I wanted to...
 ## Hardware
 Raspberry Pi 3b+ (or newer)
 
-## OS
+## Operating System
 Raspberry Pi OS (64-bit) Debian Bookworm w/ Raspberry Pi Desktop
 
 ## Raspberry Pi Setup Steps
-1. Flash SD Card w/ OS
+1. Flash SD Card with the Operating System
 2. Update Pi:
    - Command: `sudo apt update && sudo apt upgrade -y`
 4. Update raspi-config:

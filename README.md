@@ -25,7 +25,7 @@ Raspberry Pi OS (64-bit) Debian Bookworm w/ Raspberry Pi Desktop
    - Set Audio Out via HDMI: `System Options` -> `Audio` -> `vc4-hdmi`
 5. Set Volume:
    - Command: `alsamixer`
-   - Hit UP/DOWN arrow on keyboard to set desired volume
+   - Use `UP`/`DOWN` arrow on keyboard to set desired volume
 
 ## Setup pi-player
 1. Copy `pi-player.py` to whatever directory you choose

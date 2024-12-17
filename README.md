@@ -7,7 +7,7 @@ This script will:
 ## Why
 I wanted to...
 - Play videos like old cable/antenna TV.
-- Turn it on, just watch without making choices.
+- Turn it on and just watch without making choices.
 
 ## Hardware
 Raspberry Pi 3b+ (or newer)
@@ -21,8 +21,8 @@ Raspberry Pi OS (64-bit) Debian Bookworm w/ Raspberry Pi Desktop
    - Command: `sudo apt update && sudo apt upgrade -y`
 4. Update raspi-config:
    - Command: `sudo raspi-config`
-   - Set to boot to Command Line: System Options -> Boot/Auto Login -> B1 Console
-   - Set HDMI Audio Out: System Options -> Audio -> vc4-hdmi
+   - Set to boot to Command Line: `System Options` -> `Boot/Auto Login` -> `B1 Console`
+   - Set HDMI Audio Out: `System Options` -> `Audio` -> `vc4-hdmi`
 5. Set Volume
    - Command: `alsamixer`
    - Hit UP/DOWN arrow on keyboard to set desired volume

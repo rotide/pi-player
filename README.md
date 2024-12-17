@@ -5,7 +5,7 @@ This script will:
 - When complete, start playing the playlist again using a new random shuffle.
 
 ## Why
-I wanted to
+I wanted to...
 - Play videos like old cable/antenna TV.
 - Turn it on, just watch without making choices.
 

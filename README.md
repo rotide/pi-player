@@ -21,9 +21,9 @@ Raspberry Pi OS (64-bit) Debian Bookworm w/ Raspberry Pi Desktop
    - Command: `sudo apt update && sudo apt upgrade -y`
 4. Update raspi-config:
    - Command: `sudo raspi-config`
-   - Set to boot to Command Line: `System Options` -> `Boot/Auto Login` -> `B1 Console`
-   - Set HDMI Audio Out: `System Options` -> `Audio` -> `vc4-hdmi`
-5. Set Volume
+   - Set Boot to Command Line: `System Options` -> `Boot/Auto Login` -> `B1 Console`
+   - Set Audio Out via HDMI: `System Options` -> `Audio` -> `vc4-hdmi`
+5. Set Volume:
    - Command: `alsamixer`
    - Hit UP/DOWN arrow on keyboard to set desired volume
 

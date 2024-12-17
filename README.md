@@ -4,6 +4,11 @@ This script will:
 - Shuffle and play video files in a playlist.
 - When complete, start playing the playlist again using a new random shuffle.
 
+## Why
+I wanted to
+- Play videos like old cable/antenna TV.
+- Turn it on, just watch without making choices.
+
 ## Hardware
 Raspberry Pi 3b+ (or newer)
 

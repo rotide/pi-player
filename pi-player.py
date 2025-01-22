@@ -4,21 +4,26 @@ import sys
 import subprocess
 import time
 
-PAUSE_BETWEEN_EACH_VIDEO = 1
-PAUSE_BETWEEN_PLAYLIST_REPLAYS = 1
+PAUSE = 1
 
 def get_playlist() -> list:
-    try:
-        with open("./play.lst") as file:
-            playlist = [line.rstrip() for line in file if is_file(line.rstrip())]
+    playlist = []
+    open_error = False
 
-        if len(playlist) == 0:
-            print(f"Error: No valid file paths found in playlist.")
-            sys.exit(1)
-        return playlist
+    try:
+        with open("./playlist") as file:
+            playlist = [line.rstrip() for line in file if is_file(line.rstrip())]
     except:
-        print(f"Error: Unable to open playlist. Exiting.")
-        sys.exit(1)
+        open_error = True
+
+    if len(playlist) == 0:
+        if open_error:
+            print(f"Error: Unable to open playlist.")
+        else:
+            print(f"Error: Playlist empty. Please add videos to playlist.")
+
+    return playlist
+
 
 def is_file(filepath) -> bool:
     return os.path.isfile(filepath)
@@ -42,7 +47,7 @@ def play(playlist) -> None:
 
         # Pause in the event that the video storage location is unavailable (NFS share, etc).
         # This will stop the script from hammering the network share.
-        time.sleep(PAUSE_BETWEEN_EACH_VIDEO)
+        time.sleep(PAUSE)
 
 def main() -> None:
     while True:
@@ -51,7 +56,7 @@ def main() -> None:
 
         # Pause in the event there is an unknown error with the playlist.
         # This will stop the script from hammering the network share and the CPU.
-        time.sleep(PAUSE_BETWEEN_PLAYLIST_REPLAYS)
+        time.sleep(PAUSE)
 
 if __name__ == "__main__":
     main()
